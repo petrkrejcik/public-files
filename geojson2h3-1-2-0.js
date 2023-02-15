@@ -246,7 +246,7 @@ function h3SetToFeatureCollection(hexagons, getProperties) {
     };
 }
 
-module.exports = {
+window.GeoJSON = {
     featureToH3Set: featureToH3Set,
     h3ToFeature: h3ToFeature,
     h3SetToFeature: h3SetToFeature,
